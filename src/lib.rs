@@ -15,7 +15,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 
 
-
 /// In business, amortization refers to spreading payments over multiple periods.
 /// The term is used for two separate processes: amortization of loans and assets.
 /// It also refers to allocating the cost of an intangible asset over a period of time.

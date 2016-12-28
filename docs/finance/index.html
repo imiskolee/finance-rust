@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `finance` crate.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, finance">
+
+    <title>finance - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'></p><script>window.sidebarCurrent = {name: 'finance', ty: 'mod', relpath: '../'};</script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content mod">
+<h1 class='fqn'><span class='in-band'>Crate <a class='mod' href=''>finance</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a id='src-0' class='srclink' href='../src/finance/src/lib.rs.html#1-325' title='goto source code'>[src]</a></span></h1>
+<div class='docblock'><p>finance-rust is a simple common finance mathematics in rust.
+Its cloning form [<a href="http://financejs.org/">http://financejs.org/</a>] .
+The create includes some finance mathematics theory &amp; formula (eg: CAGR,CI,LR,PI,AM etc.).</p>
+</div><h2 id='functions' class='section-header'><a href="#functions">Functions</a></h2>
+<table>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.am.html'
+                                  title='finance::am'>am</a></td>
+                           <td class='docblock short'>
+                                <p>In business, amortization refers to spreading payments over multiple periods.
+The term is used for two separate processes: amortization of loans and assets.
+It also refers to allocating the cost of an intangible asset over a period of time.
+see definition: <a href="https://en.wikipedia.org/wiki/Amortization_%28business%29">https://en.wikipedia.org/wiki/Amortization_%28business%29</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.cagr.html'
+                                  title='finance::cagr'>cagr</a></td>
+                           <td class='docblock short'>
+                                <p>Compound annual growth rate (CAGR) is a business and investing specific term for the geometric progression ratio that provides a constant rate of return over the time period.
+[1][2] CAGR is not an accounting term, but it is often used to describe some element of the business, for example revenue, units delivered, registered users, etc.
+CAGR dampens the effect of volatility of periodic returns that can render arithmetic means irrelevant.
+It is particularly useful to compare growth rates from various data sets of common domain such as revenue growth of companies in the same industry.
+see definition: <a href="http://pages.uoregon.edu/rgp/PPPM613/class8a.htm">http://pages.uoregon.edu/rgp/PPPM613/class8a.htm</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.ci.html'
+                                  title='finance::ci'>ci</a></td>
+                           <td class='docblock short'>
+                                <p>he addition of interest to the principal sum of a loan or deposit is called compounding.
+Compound interest is interest on interest.
+It is the result of reinvesting interest, rather than paying it out, so that interest in the next period is then earned on the principal sum plus previously-accumulated interest.
+Compound interest is standard in finance and economics.
+see definition: <a href="https://en.wikipedia.org/wiki/Compound_interest">https://en.wikipedia.org/wiki/Compound_interest</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.df.html'
+                                  title='finance::df'>df</a></td>
+                           <td class='docblock short'>
+                                <p>Discounting is a financial mechanism in which a debtor obtains the right to delay payments to a creditor, for a defined period of time, in exchange for a charge or fee.
+Essentially, the party that owes money in the present purchases the right to delay the payment until some future date.
+The discount, or charge, is the difference (expressed as a difference in the same units (absolute) or in percentage terms (relative), or as a ratio) between the original amount owed in the present and the amount that has to be paid in the future to settle the debt.
+see definition: <a href="https://en.wikipedia.org/wiki/Discounting">https://en.wikipedia.org/wiki/Discounting</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.fv.html'
+                                  title='finance::fv'>fv</a></td>
+                           <td class='docblock short'>
+                                <p>Future value is the value of an asset at a specific date.
+It measures the nominal future sum of money that a given sum of money is &quot;worth&quot; at a specified time in the future assuming a certain interest rate, or more generally, rate of return; it is the present value multiplied by the accumulation function.
+The value does not include corrections for inflation or other factors that affect the true value of money in the future.
+This is used in time value of money calculations.
+see definition: <a href="https://en.wikipedia.org/wiki/Future_value">https://en.wikipedia.org/wiki/Future_value</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.irr.html'
+                                  title='finance::irr'>irr</a></td>
+                           <td class='docblock short'>
+                                <p>The internal rate of return (IRR) or external rate of return (ERR) is a method of calculating rate of return.
+The term internal refers to the fact that its calculation does not incorporate environmental factors (e.g., the interest rate or inflation).
+see definition: <a href="https://en.wikipedia.org/wiki/Internal_rate_of_return">https://en.wikipedia.org/wiki/Internal_rate_of_return</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.lr.html'
+                                  title='finance::lr'>lr</a></td>
+                           <td class='docblock short'>
+                                <p>In finance, leverage (sometimes referred to as gearing in the United Kingdom and Australia) is any technique involving the use of borrowed funds in the purchase of an asset, with the expectation that the after tax income from the asset and asset price appreciation will exceed the borrowing cost.
+Normally, the finance provider would set a limit on how much risk it is prepared to take and will set a limit on how much leverage it will permit, and would require the acquired asset to be provided as collateral security for the loan.
+see definition: <a href="https://en.wikipedia.org/wiki/Leverage_(finance)">https://en.wikipedia.org/wiki/Leverage_(finance)</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.npv.html'
+                                  title='finance::npv'>npv</a></td>
+                           <td class='docblock short'>
+                                <p>In finance, the net present value (NPV) or net present worth (NPW)[1] is a measurement of the profitability of an undertaking that is calculated by subtracting the present values (PV) of cash outflows (including initial cost) from the present values of cash inflows over a period of time.
+Incoming and outgoing cash flows can also be described as benefit and cost cash flows, respectively.
+see definition: <a href="https://en.wikipedia.org/wiki/Net_present_value">https://en.wikipedia.org/wiki/Net_present_value</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.pi.html'
+                                  title='finance::pi'>pi</a></td>
+                           <td class='docblock short'>
+                                <p>Profitability index (PI), also known as profit investment ratio (PIR) and value investment ratio (VIR), is the ratio of payoff to investment of a proposed project.
+It is a useful tool for ranking projects because it allows you to quantify the amount of value created per unit of investment.
+see definition: <a href="https://en.wikipedia.org/wiki/Profitability_index">https://en.wikipedia.org/wiki/Profitability_index</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.pp.html'
+                                  title='finance::pp'>pp</a></td>
+                           <td class='docblock short'>
+                                <p>Payback period in capital budgeting refers to the period of time required to recoup the funds expended in an investment, or to reach the break-even point.
+see definition: <a href="https://en.wikipedia.org/wiki/Payback_period">https://en.wikipedia.org/wiki/Payback_period</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.pv.html'
+                                  title='finance::pv'>pv</a></td>
+                           <td class='docblock short'>
+                                <p>In economics, present value, also known as present discounted value, is the value of an expected income stream determined as of the date of valuation.
+The present value is always less than or equal to the future value because money has interest-earning potential, a characteristic referred to as the time value of money, except during times of negative interest rates, when the present value will be more than the future value.
+Time value can be described with the simplified phrase, &quot;A dollar today is worth more than a dollar tomorrow&quot;.
+Here, &#39;worth more&#39; means that its value is greater. A dollar today is worth more than a dollar tomorrow because the dollar can be invested and earn a day&#39;s worth of interest, making the total accumulate to a value more than a dollar by tomorrow.
+Interest can be compared to rent.[2] Just as rent is paid to a landlord by a tenant, without the ownership of the asset being transferred, interest is paid to a lender by a borrower who gains access to the money for a time before paying it back.
+By letting the borrower have access to the money, the lender has sacrificed the exchange value of this money, and is compensated for it in the form of interest.
+The initial amount of the borrowed funds (the present value) is less than the total amount of money paid to the lender.
+see definition: <a href="https://en.wikipedia.org/wiki/Present_value">https://en.wikipedia.org/wiki/Present_value</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.r72.html'
+                                  title='finance::r72'>r72</a></td>
+                           <td class='docblock short'>
+                                <p>In finance, the rule of 72, the rule of 70 and the rule of 69.3 are methods for estimating an investment&#39;s doubling time. The rule number (e.g., 72) is divided by the interest percentage per period to obtain the approximate number of periods (usually years) required for doubling
+see definition: <a href="https://en.wikipedia.org/wiki/Rule_of_72">https://en.wikipedia.org/wiki/Rule_of_72</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.roi.html'
+                                  title='finance::roi'>roi</a></td>
+                           <td class='docblock short'>
+                                <p>Return on Investment (ROI) is the benefit to an investor resulting from an investment of some resource.
+A high ROI means the investment gains compare favorably to investment cost.
+As a performance measure, ROI is used to evaluate the efficiency of an investment or to compare the efficiency of a number of different investments.
+In purely economic terms, it is one way of considering profits in relation to capital invested.
+see definition: <a href="https://en.wikipedia.org/wiki/Return_on_investment">https://en.wikipedia.org/wiki/Return_on_investment</a></p>
+                           </td>
+                       </tr>
+                       <tr class=' module-item'>
+                           <td><a class='fn' href='fn.wacc.html'
+                                  title='finance::wacc'>wacc</a></td>
+                           <td class='docblock short'>
+                                <p>The weighted average cost of capital (WACC) is the rate that a company is expected to pay on average to all its security holders to finance its assets.
+The WACC is commonly referred to as the firm’s cost of capital.
+Importantly, it is dictated by the external market and not by management.
+The WACC represents the minimum return that a company must earn on an existing asset base to satisfy its creditors, owners, and other providers of capital, or they will invest elsewhere.
+see definition: <a href="https://en.wikipedia.org/wiki/Weighted_average_cost_of_capital">https://en.wikipedia.org/wiki/Weighted_average_cost_of_capital</a></p>
+                           </td>
+                       </tr></table></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "finance";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../jquery.js"></script>
+    <script src="../main.js"></script>
+    
+    <script defer src="../search-index.js"></script>
+</body>
+</html>
